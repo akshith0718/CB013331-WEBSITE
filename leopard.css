@@ -1,0 +1,103 @@
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/sri-lankan-leopard-yala.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+ }
+P{
+    margin: 10PX;
+    padding: 10PX;
+    font-size: 20px;
+    text-align: justify;
+}
+img{
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.title h1{
+    color: #fff;
+    font-size: 60px;
+}
+.title :hover{
+    transform: scale(1.03);
+    transition: all 0.5s ease;
+}
+
+@media (max-width: 400px){
+    .title h1{
+        font-size: 40px;
+    }
+}
+
+.leoparddd{
+    background-color:#F2EFEE;
+    border: 10px outset #db6139;
+}
+.leoparddd h2{
+   margin-left: 45%;
+}
+@media (max-width: 400px){
+    .activities img{
+        width: auto;
+        height: 200px;
+    }
+    .activities h2{
+        margin-left: 33%;
+    }
+    #third{
+        font-size: 15px;
+    }
+}
+
+.leoparddd-links{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.acts{
+    background: #ffffff;
+    width: 400px;
+    height: auto;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.acts p, h2{
+    padding: 15px;
+    text-align: justify;
+}
+
+
+
+
+.acts a{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 30px;
+    text-decoration: none;
+}
+
+.acts:hover{
+    background-color:hsl(0, 100%, 99%);
+    color: rgb(3, 3, 3);
+    transform: scale(1.03);
+    transition: all 0.5s ease;
+}
+

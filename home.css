@@ -1,0 +1,146 @@
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/sri-lankan-leopard.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+
+figure{
+    display: inline-block;
+    padding-left: 2em; 
+    padding-right: 2em;
+}
+
+.figures {
+    display: flex;
+    justify-content: center;
+    
+    }
+
+.mainimage{
+    align-content: center;
+    margin: 20px;
+}
+
+.intro{
+    background-color: #F2EFEE;
+    padding: 10px;
+    
+    /*margin: 10PX;*/
+    border: 15px groove #dfa27a;
+
+}
+ol{
+    margin-left: 50px;
+    font-size: 20px;
+}
+p{
+    margin: 15px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+h1{
+    font-size: 30px;
+}
+
+/* middle title*/
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.title h1{
+    color: #fff;
+    font-size: 70px;
+}
+.title h2{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+
+.title :hover{
+    transform: scale(1.03);
+    transition: all 0.5s ease;
+}
+
+@media (max-width: 400px){
+    .title h1{
+        font-size: 40px;
+    }
+}
+
+
+/* about sri lanka section*/
+
+.srilanka{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.srilanka-1{
+    background:#F2EFEE;
+    width: 400px;
+    height: auto;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.srilanka-1 p, h2{
+    padding: 15px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.srilanka-1-image{
+    height: 300px;
+    margin-bottom: 50px;
+    border-radius: 15px 15px 0 0;
+    
+}
+
+.srilanka-1 a{
+    background-color: black;
+    color: rgb(226, 194, 125);
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 20px;
+    text-decoration: none;
+}
+
+.srilanka-1 ul{
+    margin-left: 40px;
+    font-size: 18px;
+    
+}
+
+.srilanka-1:hover{
+    transform: scale(1.03);
+    transition: all 0.5s ease;
+}
+.flora{
+    background-image: url(images/floraaaaa.jpg);
+    background-size: cover;
+}
+.fauna{
+    background-image: url(images/bird.jpg);
+    background-size: cover;
+}
+.bio{
+    background-image: url(images/A-BIODIVERSITY.jpg);
+    background-size: cover;
+}
+

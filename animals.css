@@ -1,0 +1,93 @@
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/A-MONKEY.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+p{
+    font-size: 20px;
+    text-align: justify;
+}
+img{
+    border-radius: 15px;
+   margin: 15px;
+}
+
+.image{
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #F2EFEE;
+    border: 15px groove #dfa27a;
+}
+
+.ani{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.individual{
+    background: #fff8f8;
+    width: 400px;
+    height: auto;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.individual p, h2{
+    padding: 15px;
+    text-align: justify;
+}
+
+
+
+.individual a{
+    background-color: rgb(20, 18, 3);
+    color: rgb(255, 255, 255);
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 30px;
+    text-decoration: none;
+}
+
+.individual:hover{
+    background-color:#ffffff00;
+    color: rgb(255, 239, 239);
+    transform: scale(1.03);
+    transition: all 0.5s ease;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.title h1{
+    color: #fff;
+    font-size: 60px;
+}
+.title :hover{
+    transform: scale(1.03);
+    transition: all 0.5s ease;
+}
+
+@media (max-width: 400px){
+    .title h1{
+        font-size: 40px;
+    }
+}
+
+.intro{ 
+    border: 12px groove #dfa27a;
+}
+
